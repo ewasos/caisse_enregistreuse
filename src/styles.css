@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+h3{ color: midnightblue; font-family: sans-serif; font-size: 1.5em;  padding-left: 10px;
+  margin: 0;}
+th {
+  background-color: rgb(112, 196, 105);
+  color: white;
+  font-weight: normal;
+  padding: 5px 10px;
+  text-align: left;
+}
+td {
+  background-color: rgb(238, 238, 238);
+  color: rgb(111, 111, 111);
+  padding: 5px 10px;
+}
+.table-title{
+  color : midnightblue;
+  font-family: sans-serif;
+}
+
+.mark {
+  background-color: rgb(112, 196, 105);
+  color: white;
+  font-weight: normal;
+  padding: 5px 10px;
+  text-align: left;
+}

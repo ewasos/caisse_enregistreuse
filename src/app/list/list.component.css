@@ -1,0 +1,10 @@
+.my_list {background-color: gainsboro; }
+
+.flat-table {
+  width: 100%;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 80%;
+  overflow: auto;
+  margin: auto;
+}

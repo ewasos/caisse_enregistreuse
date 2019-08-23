@@ -1,0 +1,12 @@
+.my_tab{
+  float:right;
+  padding: 0;
+  margin: 0;
+}
+
+.flat-table {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 80%;
+  overflow: auto;
+}

@@ -1,0 +1,15 @@
+.div_code {
+  background-color: darkgray;
+  font-family: sans-serif;
+  color : white;
+  padding-left: 10px;
+}
+
+input, button{
+  background: right no-repeat;
+  padding-right:30px;
+  padding: 10px;
+  border: 2px gray solid ;
+  border-radius: 5px;
+  background-color: white;
+}

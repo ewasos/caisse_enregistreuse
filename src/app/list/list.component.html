@@ -1,0 +1,35 @@
+<div class="my_list">
+  <div class="table-title">
+    <h3>Caddie : </h3>
+  </div>
+
+  <hr>
+<!-- Verifs de tests
+  <div *ngIf="articlesListService.listArticlesAdded.length">
+    <div *ngFor='let a of articlesListService.listArticlesAdded'> {{ a.name }} </div>
+  </div>
+  <div *ngIf="addArticle">
+    my article :  {{addArticle.code}} - {{addArticle.name}} -  {{addArticle.price}}
+  </div>-->
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Code</th>
+      <th scope="col">Désigantion</th>
+      <th scope="col">Prix</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let article of articles; index as i">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>
+        {{article.code}}
+      </td>
+      <td>{{article.name}}</td>
+      <td width="100px">{{article.price | number:'1.2-2' }}</td>
+    </tr>
+    </tbody>
+  </table>
+  <hr>
+</div>

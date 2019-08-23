@@ -1,0 +1,19 @@
+<div class="my_code">
+    <div class="div_code"><h3>Articles à ajouter :</h3>
+      <label>Code Article:
+        <input #newArticle placeholder="code"/>
+        <button (click)="getObjectArticle(newArticle.value)">Add</button>
+      </label>
+    </div>
+  <!-- Affichage pour le besoin de test -->
+  <div *ngIf="articleInput">
+    <div class="card">
+      <div class="card-body">
+        [ Désignation : {{articleInput.name}} - Prix : {{articleInput.price}} ]
+      </div>
+    </div>
+    <!--FIN Affichage pour le besoin de test -->
+  </div>
+  <app-list [addArticle]=articleInput></app-list>
+
+</div>

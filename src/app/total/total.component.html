@@ -1,0 +1,28 @@
+<div class="my_total" *ngIf="this.articlesListService.listArticlesAdded.length > 0">
+  <div class="table-title">
+    <h3>Total : </h3>
+  </div>
+
+  <table class="table-striped my_tab" >
+    <thead>
+    <tr>
+      <th scope="col" width="100px"></th>
+      <th scope="col" width="100px">Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>TTC</td>
+      <td>{{ totalTTC | number:'1.2-2' }}</td>
+    </tr>
+    <tr>
+      <td>TVA</td>
+      <td>{{ totalTVA | number:'1.2-2'}}</td>
+    </tr>
+    <tr>
+      <td>HT</td>
+      <td>{{ totalHT | number:'1.2-2'}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
